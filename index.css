@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black ;
+}
+
+#confettiButton{
+    padding: 2rem 2rems;
+    font-size: 3rem;
+    font-weight: 25;
+    border-radius: 20rem;
+    border: none;
+    cursor:pointer;
+    transition: 0.3s;
+    margin-bottom: 10 px ;
+    width: 200px;
+    background-color: black;
+
+}
+
+button{    
+    padding: 10px 40px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 50px;
+    border: none;
+    cursor:pointer;
+    transition: 0.3s;
+    margin-bottom: 10 px ;
+    width: 200px;
+}
+
+.mapa-container {
+    position: relative; /* Essencial: define o contêiner como base para o filho absoluto */
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mapa-container h1 {
+    position:relative; /* Tira o texto do fluxo normal e permite sobreposição */
+    top: 5px; /* Distância do topo do mapa */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajuste fino para o centro exato */
+    z-index: 10; /* Garante que o texto fique na frente do mapa */
+    color: #fff; /* Cor do texto (escolha uma que contraste com o mapa) */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.box{
+    color:#fff;
+}
+
+head{ 
+    padding: 0%;
+    margin-top: 0%;
+}
+
+ .box {
+    display: flex;
+    flex-direction: column; /* Alinha um embaixo do outro */
+    gap: 10px;
+ }

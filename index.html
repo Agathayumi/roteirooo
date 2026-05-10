@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Roteiro
+    </title>
+</head>
+<body>
+    <button id="confettiButton">🎉</button>
+<script src="https://cdn.jsdelivr.net/npm/@hiseb/confetti@2.1.0/dist/confetti.min.js"></script>
+    <script>
+        const button = document.querySelector('.confettiButton');
+        confettiButton.addEventListener("click", () =>{
+            confetti({
+                particleCount: 100,
+  spread: 70,
+  origin: { y: .6 }
+});
+            })
+    </script>
+    <a href="indexd.html">
+    <button>Vamos lá!</button>
+</a>
+
+    </body>
+</body>
+</html>
